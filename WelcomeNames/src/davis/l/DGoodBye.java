@@ -14,6 +14,5 @@ public class DGoodBye {
 		 System.out.println("\nGood bye!");
 		
 	}
-
 }
 

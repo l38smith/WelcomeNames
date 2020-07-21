@@ -65,8 +65,7 @@ public class D_UpdateData {
            lastName = tokens[1];
               
                 }
-          
-            
+                     
            int updateCount = nameHandler.update(id, firstName, lastName);
      
            updateCount = nameHandler.update(id, firstName, lastName);
@@ -75,13 +74,9 @@ public class D_UpdateData {
            System.out.printf(" > FAIL! ID = %d not found%n", id);
            } else if (updateCount > 0) {
            System.out.printf("> Updated !  ID = %d%n", id);
-                 
-           }
-                
-                
-           }    
-   
-          }
-    } 
-
+              
+        }
+       }    
+      }
+     } 
     }

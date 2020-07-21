@@ -15,14 +15,9 @@ public class DNamePrinter {
 						
 						n.getId(),
 						n.getFirstName(),
-						n.getLastName()
-						
-						)
-				);
-		
-	}
-
-
+						n.getLastName())
+				     );
+ }	
 }		
 					
 		
